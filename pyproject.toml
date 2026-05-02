@@ -1,0 +1,19 @@
+[project]
+name = "fa-amy"
+version = "0.0.1"
+dependencies = [
+    "torch",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tqdm",
+    "esm"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"fa_amy" = "src"}
+packages = ["fa_amy"]
